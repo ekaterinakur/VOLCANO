@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+header .top-header {
+  height: 72px;
+  padding: 0 8px;
+  box-shadow: 0px 0px 16px 1px rgba(38, 38, 38, 0.16);
+}
+
+header .main-header-container-1 {
+  display: flex;
+  align-items: center;
+  width: 956px;
+  height: 72px;
+  margin: 0 auto;
+}
+
+header .main-header-container-1 a {
+  padding: 9px;
+  margin-right: 100px;
+}
+
+header .choosing-adress {
+  display: flex;
+  align-items: center;
+  margin-right: 94px;
+  width: 390px;
+  height: 40px;
+}
+
+header .choosing-adress span {
+  display: block;
+  width: 65px;
+  height: 40px;
+  padding-top: 7px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header .choosing-adress p {
+  display: block;
+  margin: 0;
+  padding-top: 12px;
+  width: 32px;
+  height: 40px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #626262;
+  box-sizing: border-box;
+}
+
+header input[type="search"] {
+  width: 290px;
+  height: 40px;
+  padding-left: 36px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+}
+
+header .main-header-container-1 input[type="search"]:focus {
+  outline: 0;
+}
+
+header .main-header-container-1 form {
+  position: relative;
+}
+
+header .main-header-container-1 label::before {
+  content: url("images/location.svg");
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 14px;
+  height: 15px;
+}
+
+header .communication-with-user {
+  display: flex;
+  align-items: center;
+}
+
+header .communication-with-user button {
+  display: block;
+  width: 80px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #262626;
+}
+
+header .communication-with-user button:hover {
+  color: #1d1d1d;
+  border: 1px solid #e0e0e0;
+  background-color: transparent;
+}
+
+header .btn-reg {
+  margin-left: 16px;
+  margin-right: 27px;
+}
+
+header .communication-with-user a {
+  display: block;
+  width: 19px;
+  height: 23px;
+  font-size: 0;
+  background-image: url("images/basket.svg");
+  margin: 0;
+  padding: 0;
+}
+
+header .bottom-header {
+    padding: 0 8px;
+}
+
+header .main-header-container-2 {
+  display: block;
+  width: 956px;
+  height: 72px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+header .main-header-container-2 form {
+  position: relative;
+}
+
+header .main-header-container-2 input[type="search"] {
+  width: 100%;
+  padding-bottom: 15px;
+  padding-left: 31px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header .main-header-container-2 input[type="search"]:focus {
+  outline: 0;
+}
+
+header .main-header-container-2 input[type="submit"] {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  border: 0;
+  background-color: transparent;
+  background-image: url("images/Shape.svg");
+}
+
+main {
+  color: #000;
+  padding: 0 8px;
+  margin: 56px 0 80px;
+}
+
+main .cards-container {
+  width: 956px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+main h1 {
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 34px;
+  flex-basis: 100%;
+  margin: 0;
+}
+
+main a {
+  color: #000;
+}
+
+main .food-foto img {
+  width: 100%;
+}
+
+main .card {
+  width: 308px;
+  height: 366px;
+  margin-top: 16px;
+}
+
+main .description {
+  margin-top: 16px;
+}
+
+main .rest-name {
+  font-size: 16px;  
+  font-weight: normal;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+main .cusine {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  color: #626262;
+  margin: 4px 0;
+}
+
+main .time {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 21px;
+  color: #1d1d1d;
+}
+
+main .card:hover {
+  background-color: rgba(75, 75, 75, .04);
+}
+
+footer {
+    background-color: #262626;
+    height: 552px;
+    padding: 56px 8px 40px;
+    color: #fff;
+    position: relative;
+}
+
+footer .footer-wrapper {
+    margin: 0 auto;
+    max-width: 956px;
+}
+
+footer a {
+    color: #fff;
+}
+
+.footer-logo {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+footer .columns {
+    margin-top: 32px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+}
+
+footer .footer-col {
+    width: 33.3%;
+}
+
+footer .language {
+    width: 227px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    position: relative;
+}
+
+footer select {
+    width: 227px;
+    height: 40px;
+    border-radius: 2px;
+    background: #3B3B3B;
+    border: none;
+    padding-left: 48px;
+    font-size: 13px;
+    color: #fff;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+footer .language::before {
+    content: url(images/world.png);
+    position: absolute;
+    z-index: 1;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 16px;
+}
+
+footer .language::after {
+    content: url(images/select_shape.png);
+    position: absolute;
+    z-index: 1;
+    width: 14px;
+    height: 14px;
+    top: 13px;
+    right: 10px;
+}
+
+footer .hashtag {
+    font-size: 16px;
+    margin: 33px 0 21px;
+}
+
+footer .hashtag > span {
+    color: #49A144;
+}
+
+footer .socials > a {
+    margin-right: 5px;
+}
+
+footer .footer-links {
+    padding-top: 7px;
+}
+
+footer .links-column:not(:last-child) {
+    margin-bottom: 23px;
+}
+
+footer .app-stores {
+    margin: 40px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+footer .app-stores img[alt="AppStore"] {
+    margin-right: 40px;
+}
+
+footer .terms {
+    margin-top: 40px;
+    display: flex;
+    font-size: 11px;
+}
+
+footer .up-button {
+    padding: 28px 32px 25px;
+    background-color: #59bd5a;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 24px;
+    right: 16px;
+}

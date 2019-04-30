@@ -1,0 +1,90 @@
+@media (max-width: 1023px) {
+    main .cards-container {
+        width: 752px;
+    }
+
+    main .card {
+        width: 371px;
+    }
+
+    main .card img {
+        height: 256px;
+    }
+
+    footer .language,
+    footer select {
+        width: 176px;
+    }
+}
+
+@media (max-width: 639px) {
+    main {
+        margin-top: 40px;
+        margin-bottom: 48px;
+    }
+
+    main .cards-container {
+        width: 311px;
+        display: block;
+    }
+
+    main .card {
+        width: 100%;
+    }
+
+    footer {
+        height: 880px;
+    }
+
+    footer select,
+    footer .language {
+        width: 173px;
+    }
+
+    footer .footer-col {
+        width: 100%;
+    }
+
+    footer .columns,
+    footer .terms {
+        display: block;
+    }
+
+    footer .columns {
+        padding-bottom: 40px;
+    }
+
+    .footer-col-1 {
+        margin-bottom: 43px;
+    }
+
+    .footer-col-2 {
+        margin-bottom: 23px;
+    }
+
+    .footer-links {
+        padding-top: 0;
+    }
+
+    footer .app-stores {
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    footer .app-stores img[alt="GooglePlay"] {
+        width: 124px;
+    }
+
+    footer .app-stores img[alt="AppStore"] {
+        margin-right: 25px;
+        width: 107px;
+    }
+
+    footer .terms div {
+        margin-bottom: 24px;
+    }
+
+    footer .up-button {
+        padding: 21px 24px 19px;
+    }
+}
